@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items:center ;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.bloque1{
+    width: 300px;
+    height: 150px;
+    background-color: tomato;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bloque2{
+    width: 300px;
+    height: 350px;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    
+}.bloque3{
+    width: 300px;
+    height: 500px;
+    background-color: orangered;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+@media screen  and (max-width: 800px){
+.bloque3{
+top: 350px;
+left: 0;
+position: relative;
+
+
+    }
+    
+}
